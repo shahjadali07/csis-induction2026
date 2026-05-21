@@ -353,7 +353,7 @@ export default function AdminPanel() {
                   </ul>
                 )}
               </div>
-            )
+            )}
             <div className="flex gap-3">
               <button onClick={() => handleUpdateStatus(selectedApp.id, 'rejected')} disabled={selectedApp.status === 'rejected'}
                 className="px-4 py-2 bg-red-500/10 border border-red-500/30 text-red-400 rounded hover:bg-red-500/20 disabled:opacity-50">
